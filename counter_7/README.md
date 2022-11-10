@@ -10,14 +10,12 @@ Widget Stateful adalah yang mengubah propertinya selama run-time. Mereka dinamis
 
 ### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
 
-1. Scaffold : Mengatur layout dari widget yang ada di dalamnya
-2. Text : Untuk menampilkan text dengan style tertentu
-3. FloatingActionButton : Untuk membuat button yang dapat melakukan action tertentu
-4. Row : Memposisikan widget secara horizontal
-5. Column : Memposisikan widget secara vertikal
-6. Padding : Menambahkan padding atau empty space
-7. Center : Memposisikan elemen ke tengah
-8. Icon : Memberi icon ke sebuah elemen
+1. Scaffold : Scaffold dirancang untuk menjadi wadah tingkat atas tunggal untuk MaterialApp.
+2. Text : Teks adalah widget di Flutter yang memungkinkan kita menampilkan string teks dengan satu baris di aplikasi kita.
+3. Icon : Widget icon digunakan untuk menambahkan icon.
+4. FloatingActionButton : FAB adalah tombol ikon melingkar yang mengarahkan kursor ke konten untuk mempromosikan tindakan utama dalam aplikasi. Secara garis besar, digunakan untuk mengimplementasikan action.
+5. Padding : Menambahkan padding atau ruang kosong di sekitar widget atau banyak widget.
+
 
 <br />
 
