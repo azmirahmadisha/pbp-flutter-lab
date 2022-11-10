@@ -10,14 +10,14 @@ Widget Stateful adalah yang mengubah propertinya selama run-time. Mereka dinamis
 
 ### Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
 
-Scaffold : Mengatur layout dari widget yang ada di dalamnya
-Text : Untuk menampilkan text dengan style tertentu
-FloatingActionButton : Untuk membuat button yang dapat melakukan action tertentu
-Row : Memposisikan widget secara horizontal
-Column : Memposisikan widget secara vertikal
-Padding : Menambahkan padding atau empty space
-Center : Memposisikan elemen ke tengah
-Icon : Memberi icon ke sebuah elemen
+1. Scaffold : Mengatur layout dari widget yang ada di dalamnya
+2. Text : Untuk menampilkan text dengan style tertentu
+3. FloatingActionButton : Untuk membuat button yang dapat melakukan action tertentu
+4. Row : Memposisikan widget secara horizontal
+5. Column : Memposisikan widget secara vertikal
+6. Padding : Menambahkan padding atau empty space
+7. Center : Memposisikan elemen ke tengah
+8. Icon : Memberi icon ke sebuah elemen
 
 <br />
 
@@ -33,10 +33,9 @@ Kata kunci final juga digunakan untuk membuat variabel memiliki nilai konstan. S
 
  ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
-Membuat aplikasi Flutter bernama counter_7 dengan command flutter create counter_7
-Membuat fungsi _decrementCounter untuk decrement variabel counter
-membuat kondidi ganjil genap dan mengatur warnanya sesuai ketentuan
-Menambah container padding yang berisi button untuk increase dan decrease counter
-Untuk bonus, gunakan kondisi if (_counter != 0) ... di button dengan action _decreaseCounter agar button tidak muncul saat counter = 0
+1. Melakukan command flutter create untuk membuat sebuah aplikasi/project Flutter baru dengan nama counter_7
+2. Menambahkan fungsi untuk pengurangan counter dengan nama fungsi _decrementCounter
+3. Memodifikasi kode sehingga memiliki conditional statement di mana akan menampilkan genap saat counter bernilai genap dan ganjil saat counter bernilai ganjil, termasuk mengatur style warna font.
+4. Memodifikasi floating action button bagian decrease sehingga diawali dengan kondisi jika counter > 0 agar tombol decrement tidak muncul ketika counter <= 0.
 
 <br />
