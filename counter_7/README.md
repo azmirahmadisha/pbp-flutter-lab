@@ -1,5 +1,4 @@
- Aplikasi Heroku dapat diakses pada [tautan berikut](http://katalog-tugas2.herokuapp.com/todolist/).
-<br />
+
 
 ### Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.
 
@@ -41,24 +40,3 @@ Menambah container padding yang berisi button untuk increase dan decrease counte
 Untuk bonus, gunakan kondisi if (_counter != 0) ... di button dengan action _decreaseCounter agar button tidak muncul saat counter = 0
 
 <br />
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- Apa fungsi dari setState()? Jelaskan variabel apa saja yang dapat terdampak dengan fungsi tersebut.
- Jelaskan perbedaan antara const dengan final.
- Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
