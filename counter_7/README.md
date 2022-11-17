@@ -1,4 +1,4 @@
-# TUGAS 6
+# TUGAS 7
 
 ### Jelaskan apa yang dimaksud dengan stateless widget dan stateful widget dan jelaskan perbedaan dari keduanya.
 
@@ -39,7 +39,7 @@ Kata kunci final juga digunakan untuk membuat variabel memiliki nilai konstan. S
 <br />
 
 
-# TUGAS 7
+# TUGAS 8
 
 ### Jelaskan perbedaan Navigator.push dan Navigator.pushReplacement.
 
