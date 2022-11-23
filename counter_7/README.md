@@ -99,10 +99,10 @@ Bisa, namun hal tersebut tidak lebih baik daripada membuat model terlebih dahulu
   
  ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
-1. Melakukan command flutter create untuk membuat sebuah aplikasi/project Flutter baru dengan nama counter_7
-2. Menambahkan fungsi untuk pengurangan counter dengan nama fungsi _decrementCounter
-3. Memodifikasi kode sehingga memiliki conditional statement di mana akan menampilkan genap saat counter bernilai genap dan ganjil saat counter bernilai ganjil, termasuk mengatur style warna font.
-4. Memodifikasi floating action button bagian decrease sehingga diawali dengan kondisi jika counter > 0 agar tombol decrement tidak muncul ketika counter <= 0.
+1. Membuat ListTile pada drawer.dart yang akan melakukan pushReplacement ke halaman wishlist yang sudah dibuat.
+2. Membuat folder model dan membuat sebuah file dart baru untuk menampung model wishlist yang akan difetch ke aplikasi Flutter.
+3. Membuat sebuah file dart sebagai page untuk menampilkan halaman berisi data watchlist yang diambil dari aplikasi Heroku. Pada aplikasi ini, dibuat beberapa kelas dan pemanggilan fungsi fetch data. 
+4. 
 
 <br />
 
