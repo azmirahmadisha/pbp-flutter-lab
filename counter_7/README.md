@@ -78,7 +78,7 @@ Navigasi pada flutter bekerja seperti sebuah stack. Pada pengaplikasian navigato
 
 ### Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
 
-Bisa, namun hal tersebut tidak lebih baik daripada membuat model terlebih dahulu sebelum melakukan pengambilan data JSON.
+Bisa, namun hal tersebut tidak lebih baik daripada membuat model terlebih dahulu sebelum melakukan pengambilan data JSON agar proses penyimpanan data lebih terstruktur.
 
 <br />
 
@@ -87,22 +87,27 @@ Bisa, namun hal tersebut tidak lebih baik daripada membuat model terlebih dahulu
 1. Scaffold : Scaffold dirancang untuk menjadi wadah tingkat atas tunggal untuk MaterialApp.
 2. Text : Teks adalah widget di Flutter yang memungkinkan kita menampilkan string teks dengan satu baris di aplikasi kita.
 3. Icon : Widget icon digunakan untuk menambahkan icon.
-4. FloatingActionButton : FAB adalah tombol ikon melingkar yang mengarahkan kursor ke konten untuk mempromosikan tindakan utama dalam aplikasi. Secara garis besar, digunakan untuk mengimplementasikan action.
-5. Padding : Menambahkan padding atau ruang kosong di sekitar widget atau banyak widget.
+4. Drawer : Membuat drawer.
+5. FloatingActionButton : FAB adalah tombol ikon melingkar yang mengarahkan kursor ke konten untuk mempromosikan tindakan utama dalam aplikasi. Secara garis besar, digunakan untuk mengimplementasikan action.
+6. Padding : Menambahkan padding atau ruang kosong di sekitar widget atau banyak widget.
+7. FutureBuilder: Mmbuat widget untuk fetching data.
+8. ListView: Megelompokkan/grouping item.
 
 
 <br />
 
 ###  Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
 
-  setState adalah cara Flutter untuk membangun kembali widget saat ini dan turunannya. Selama pembangunan kembali, nilai variabel terbaru akan digunakan untuk  membuat antarmuka pengguna. Command setState dipanggil hanya ketika ingin perubahan dalam variabel tercermin pada UI screen.
+Setelah mengatur dependensi HTTP, data akan di-fetch dengan API endpoint yang nantinya di-decode menjadi data berbentuk JSON. Lalu, data yang sudah berbentuk JSON akan dikonversi model dan dimasukan ke dalam list yang bertipe class model tersebut agar nantinya dapat ditampilkan pada aplikasi Flutter dengan listview.builder untuk merender setiap widget.
   
  ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
 1. Membuat ListTile pada drawer.dart yang akan melakukan pushReplacement ke halaman wishlist yang sudah dibuat.
 2. Membuat folder model dan membuat sebuah file dart baru untuk menampung model wishlist yang akan difetch ke aplikasi Flutter.
-3. Membuat sebuah file dart sebagai page untuk menampilkan halaman berisi data watchlist yang diambil dari aplikasi Heroku. Pada aplikasi ini, dibuat beberapa kelas dan pemanggilan fungsi fetch data. 
-4. 
+3. Menambahkan dependensi HTTP.
+4. Membuat file fetch_data.dart yang berisi fungsi untuk melakukan fetching data dari halaman JSON Heroku.
+5. Membuat sebuah file dart sebagai page untuk menampilkan halaman berisi data watchlist yang diambil dari aplikasi Heroku. Pada aplikasi ini, dibuat beberapa kelas dan pemanggilan fungsi fetch data. 
+6. Membuat sebuah file detail.dart untuk menampilkan detail item watchlist.
 
 <br />
 
